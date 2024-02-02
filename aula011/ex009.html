@@ -8,13 +8,18 @@
 <body>
     <h1>Sistema da alfandega</h1>
     <input type="text" name="nascionalidade" id="nascionalidade">
-    <input type="button" value="verificar" onclick="verificar">
+    <input type="button" value="verificar" onclick="verificar()">
     <div id="res"></div>
     <script>
-        function verificar () {
-        var nasci = window.document.getElementById('nascionalidade')
-        var res = windo.document.getElementById('res')
-        
+        function verificar() {
+            var nasci = window.document.getElementById('nascionalidade')
+            var res = window.document.getElementById('res')
+            
+            if (nasci.value.toLowerCase() !== 'brasil') {
+                res.innerHTML = 'Estrangeiro'
+            } else {
+                res.innerHTML = 'Brasileiro'
+            }
         }
     </script>
 </body>
