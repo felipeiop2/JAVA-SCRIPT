@@ -1,5 +1,5 @@
-var c = 1
-do{
-    console.log(`passo ${c}`)
-    c++
-}while (c <=9)
+console.log('Vai Comecar')
+for(var c = 1;c<=5;c++){
+    console.log(c)
+}
+console.log('FIMMMM')
