@@ -5,5 +5,7 @@ window.document.body.innerHTML += `o nome ${nome} possui ${tamanho} letras <br /
 window.document.body.innerHTML += `a segunda letra do seu nome e  ${nome.charAt(1)}<br />`
 window.document.body.innerHTML += `o indice da primeira letra E no seu nome  ${nome.indexOf(`e`)} <br />`
 window.document.body.innerHTML += `o indice da ultima letra E do seu nome e ${nome.lastIndexOf(`e`)} <br />`
+window.document.body.innerHTML += ` as 3 ultimas letras do seu nome e ${nome.slice(-3)} <br />`
+window.document.body.innerHTML += `as palavras do seu nome sao ${nome.split(' ')} <br />`
 window.document.body.innerHTML += `seu nome com letras maiusculas e ${nome.toLocaleUpperCase()} <br />`
 window.document.body.innerHTML += `seu nome com letras minusculas e ${nome.toLowerCase()} <br />`
