@@ -1,2 +1,3 @@
-let mulheres = ['Aysla', 'Ana', 'Thalita']
-console.log ('mulheres')
+let times = ['gremio', 'gremio', 'gremio']
+console.log(times)
+
