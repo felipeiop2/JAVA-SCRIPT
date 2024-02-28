@@ -1,8 +1,7 @@
 let numero = prompt('Me Fale um Numero')
-let numero2 = prompt(' Me Fale outro numero')
-let soma = parseInt(numero) + parseInt(numero2)
 let numerot = document.getElementById('numero')
-let res = document.getElementById('res')
-let res2 = document.getElementById('res2')
 numerot.innerHTML = numero
-res2.innerHTML = soma
+let raiz = document.getElementById('raiz')
+raiz.innerHTML = parseInt(numero ** 0.5)
+let inteiro = document.getElementById('inteiro')
+inteiro.innerHTML = Number.isInteger(numero)
