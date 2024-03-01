@@ -1,3 +1,8 @@
-let times = ['gremio', 'gremio', 'gremio']
-console.log(times)
-
+let pessoa1 = {
+    nome:'Aysla',
+    sobrenome: 'Silva',
+    fala () {
+        console.log()
+    }
+ 
+}
