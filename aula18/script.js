@@ -1,8 +1,8 @@
 let pessoa1 = {
-    nome:'Aysla',
+    nome:'roberto77',
     sobrenome: 'Silva',
     fala () {
-        console.log()
+        console.log(`Ola ${pessoa1.nome}`)
     }
- 
-}
+} 
+
