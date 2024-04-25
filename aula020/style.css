@@ -1,0 +1,13 @@
+body{
+    background-color: gray;
+}
+#retorno{
+    background-color: white;
+    min-width: 200px;
+    min-height: 200px; 
+    margin: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
