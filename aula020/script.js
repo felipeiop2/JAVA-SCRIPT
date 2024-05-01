@@ -1,8 +1,10 @@
 
 let retorno = window.document.getElementById('retorno')
 let data = new Date
-let diasemana = data.getDay
-if(diasemana === 3){
-    retorno.innerHTML = `Quarta`
+let diasemana = data.getDay()
+let diasemanatexto;
+if(diasemana === 4){
+    diasemanatexto = `Quarta`
+    retorno.innerHTML = data
 }
-retorno.innerHTML = data
+
