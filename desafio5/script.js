@@ -42,8 +42,8 @@ function finalizar(){
     } else {
         let tot = valores.length
         let maior = valores[0]
-        let menor = valores [0]\
-        for
+        let menor = valores [0]
+        
 
 
 
